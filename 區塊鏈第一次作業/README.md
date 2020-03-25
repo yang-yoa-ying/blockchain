@@ -23,7 +23,11 @@ ForkDelta庫資金存儲在Ethereum網絡託管的智能合約中，採用的是
 
 # 找一個你喜歡的Dapp，說明為什麼你最喜歡這個Dapp?
 ## 《SuperPlayer》
+![image](https://github.com/yang-yoa-ying/blockchain/blob/master/%E5%8D%80%E5%A1%8A%E9%8F%88%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%BD%9C%E6%A5%AD/1585157091808.jpg)
+SuperPlayer是一款去中心化MMO的遊戲，在這個遊戲中，玩家可以打掛升級，販賣購買商品，這款遊戲不但有塔BOSS的地下城闖關，豐富的獎勵內容，還有PVP對戰模式，深得我心，缺點是遊戲穩定性稍嫌不足。
 
+# 他們用這些特性是有意義的嗎？還是為了區塊鏈而區塊鏈？
+我認為在這類遊戲上使用區塊鍊其實是有些問題的，因為此類遊戲需透過不斷修改遊戲內容以達到吸引玩家的目的，但區塊鍊的不可竄改性卻與此相互違背，再者玩家也不太願意花太長時間去等待交易驗證，但若是站在交易的面向來看，我認為去區塊鍊交易的確比較受到玩家的信賴。
 
 # 參考資料
 #### https://misswufunedu.pixnet.net/blog/post/117310858
@@ -31,3 +35,4 @@ ForkDelta庫資金存儲在Ethereum網絡託管的智能合約中，採用的是
 #### https://www.blocktempo.com/about-dapp-n-things-you-need-to-know/
 #### http://www.120btc.com/pingtai/389.html
 #### https://www.blocktempo.com/about-dapp-n-things-you-need-to-know/
+#### http://superplayer-smart-cdn.kexingqiu.net/superplayer/website/whitepaper/superplayer-whitepaper-zs.pdf
