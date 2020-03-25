@@ -12,7 +12,7 @@
 簡而言之，Dapp與web2.0的差距便在去中心化上
 
 # 哪些Dapp(不一定是測試網，也可能是主網）是符合上兩堂課中的性質?
-##區塊鏈有哪些特質
+## 區塊鏈有哪些特質
 ### 1. 去中心化
 ### 2. 不可篡改
 ### 3. 公開透明
@@ -26,8 +26,8 @@ ForkDelta庫資金存儲在Ethereum網絡託管的智能合約中，採用的是
 
 
 # 參考資料
-## https://misswufunedu.pixnet.net/blog/post/117310858
-## https://medium.com/mrblock-tw/web-1-0-web2-0-web3-0%E7%9A%84%E5%8D%80%E5%88%A5%E6%98%AF%E4%BB%80%E9%BA%BC-1c7a3377ad71
-## https://www.blocktempo.com/about-dapp-n-things-you-need-to-know/
-## http://www.120btc.com/pingtai/389.html
-## https://www.blocktempo.com/about-dapp-n-things-you-need-to-know/
+#### https://misswufunedu.pixnet.net/blog/post/117310858
+#### https://medium.com/mrblock-tw/web-1-0-web2-0-web3-0%E7%9A%84%E5%8D%80%E5%88%A5%E6%98%AF%E4%BB%80%E9%BA%BC-1c7a3377ad71
+#### https://www.blocktempo.com/about-dapp-n-things-you-need-to-know/
+#### http://www.120btc.com/pingtai/389.html
+#### https://www.blocktempo.com/about-dapp-n-things-you-need-to-know/
