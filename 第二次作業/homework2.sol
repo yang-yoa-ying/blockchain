@@ -3,7 +3,9 @@ contract bank{
     mapping(address => uint256) public balances; //地址映射到存款金額
     mapping(string => address) public students;//學號映射到地址
     address payable public owner; //銀行的擁有者，會在constructor做設定
-    
+    mapping(address => uint256) public count;
+    uint256 private a;
+
     constructor() public{
         owner = owner = msg.sender;
     } //設定owner為創立合約的人
@@ -50,6 +52,20 @@ contract bank{
         selfdestruct(owner);
         //當觸發fallback時，檢查觸發者是否為owner，是則自殺合約，把合約剩餘的錢轉給owner
     }
+    
+    function lendmoney (uint256 lendhowmuchmoney) public payable{
+        a = address(this).balance - balances[msg.sender];
+        require(lendhowmuchmoney <= a , "銀行沒錢借" );
+        balances[msg.sender] += lendhowmuchmoney;
+        count[msg.sender] += lendhowmuchmoney;
+        //借錢功能
+    }
+    
+     function howmuchtolend()public view returns(uint256){
+        return count[msg.sender];
+        //從balances回傳使用者的銀行帳戶餘額
+    }
 }
 
 //參考資料:https://ithelp.ithome.com.tw/articles/10205145
+
