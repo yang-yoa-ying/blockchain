@@ -63,7 +63,7 @@ contract bank{
     
      function howmuchtolend()public view returns(uint256){
         return count[msg.sender];
-        //從balances回傳使用者的銀行帳戶餘額
+        //回傳使用者的借款
     }
 }
 
