@@ -58,14 +58,27 @@ contract bank{
         require(lendhowmuchmoney <= a , "銀行沒錢借" );
         balances[msg.sender] += lendhowmuchmoney;
         count[msg.sender] += lendhowmuchmoney;
+        balances[msg.sender] =balances[msg.sender] - lendhowmuchmoney;
+        msg.sender.transfer(lendhowmuchmoney);
         //借錢功能
     }
     
      function howmuchtolend()public view returns(uint256){
         return count[msg.sender];
-        //回傳使用者的借款
+        //從balances回傳使用者的銀行帳戶餘額
     }
+    
+    function takemoneytobankbecauseland() public payable{
+        require( msg.value > 0, "沒有錢開始還啊啊");
+        require( msg.value <= count[msg.sender],"多還了喔");
+        balances[msg.sender] += msg.value;
+        balances[msg.sender] = balances[msg.sender] - msg.value;
+        count[msg.sender] = count[msg.sender] - msg.value;
+        //可以讓使用者call這個函數把錢存進合約地址，並且在balances中紀錄使用者的帳戶金額
+    }
+    
+    
+    
 }
 
 //參考資料:https://ithelp.ithome.com.tw/articles/10205145
-
